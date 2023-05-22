@@ -1,0 +1,4 @@
+**/node_modules
+backend/frontend-build
+frontend/build
+**/.husky

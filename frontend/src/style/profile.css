@@ -1,0 +1,137 @@
+.Modal {
+    margin: auto;
+    margin-top: 300px;
+    width: 600px;
+    height: 250px;
+    border: 1px solid #824c6b;
+    background-color: #712450;
+  }
+  
+  .Overlay {
+    position: inherit;
+    background-color: red;
+    opacity: 0.5;
+  }
+  
+  .modal-header{
+    width: 100%;
+    height: 50px;
+  }
+  
+  .modal-header-content-winner {
+    width: 100%;
+    height: 70px;
+    background-color: #33b5e5;
+    font-family: var(--theme-fontfamily);
+  }
+  
+  .modal-header-content-draw {
+    width: 500px;
+    height: 70px;
+    background-color: #FFC000;
+  }
+  
+  .modal-header-content-loser {
+    width: 600px;
+    height: 70px;
+    background-color: #FF3547;
+  }
+  
+  .modal-header-text {
+    font-size: 23px;
+    color: white;
+    margin-left: 30px;
+    margin-top: 18px;
+  }
+  .modal-header-text-role{
+    font-family: var(--theme-fontfamily);
+    color: white;
+    font-size: 18px;
+    margin-left: 30px;
+    margin-top: 18px;
+    display: flex;
+  }
+  
+  .dialog-content {
+    height: auto;
+  }
+  
+  .dialog-logo {
+    width: 180px;
+    height: 180px;
+    /* background-image: url("../assets/img/prize.png"); */
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+  }
+  
+  .dialog-content-text {
+    margin-left: 20px;
+    width: auto;
+    height: 150px;
+    color: #8AA8C4;
+    font-size: 20px;
+    font-family: var(--theme-fontfamily);
+  }
+  .dialog-content-role-text{
+    width: auto;
+    height: auto;
+    color: black;
+    display: flex;
+    font-size: 20px;
+  }
+  
+  .dialog-label {
+    margin-left: 20px;
+    font-family: var(--theme-fontfamily);
+    color: #8AA8C4;
+    font-size: 23px;
+  }
+  .label-red{
+    color: #712450;
+  }
+  
+  .import{
+    /* style={{marginLeft:'auto', marginRight:'auto'}} */
+    margin-left: auto;
+    margin-right: auto;
+    font-family: var(--theme-fontfamily);
+    font-size: 17px;
+    color: gray
+  }
+
+  .dialog-content-label {
+    margin-top: 10px;
+    display: flex;
+    font-family: var(--theme-fontfamily);
+    color: white;
+    justify-content: space-around;
+  }
+  .profile-input-container {
+    display: flex;
+    width: 100%;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid rgba(255, 255, 255, 0.17);
+}
+.profile-icon {
+    padding-left: auto;
+    background: #2e3539;
+    color: white;
+    min-width: 50px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.profile-input-field {
+    width: 100%;
+    height: 25px;
+    padding: 10px;
+    outline: 0;
+    font-size: 16px;
+    border: 1px solid rgba(255, 255, 255, 0.17);
+    outline: 0;
+    box-shadow: none;
+    color: rgba(255, 255, 255, 0.8);
+    background: #323e44
+}

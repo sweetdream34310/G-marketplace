@@ -1,0 +1,55 @@
+.header-body {
+  background-color: #333333;
+  width: 100%;
+  height: 50px;
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+}
+.header-icon {
+  width: 30px;
+  height: 20px;
+  margin-top: 15px;
+  background-image: url("../assets/list.png");
+  background-size: 100% 100%;
+  margin-left: 10px;
+}
+.real-date {
+  color: white;
+  margin-top: 10px;
+  font-size: 15px;
+  font-family: var(--theme-fontfamily);
+}
+.user-name {
+  font-size: 18px;
+  font-family: var(--theme-fontfamily);
+  font-weight: bold;
+  margin-top: 10px;
+  color: var(--letter-color);
+}
+.header-list {
+  width: 140px;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.auth-icon {
+  width: 15px;
+  height: 15px;
+  background-image: url("../assets/arrow_down.png");
+  background-size: 100% 100%;
+}
+.auth-icon:hover{
+  cursor: pointer;
+  opacity: 0.6;
+}
+
+.com-icon {
+  width: 70%;
+  height: 90%;
+  border-radius: 10px;
+  background-color: aliceblue;
+  background-image: url('../assets/comlogo.png');
+  background-size: 100% 100%;
+}
+

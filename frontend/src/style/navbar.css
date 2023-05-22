@@ -1,0 +1,260 @@
+.navbar-body {
+  min-width: 230px;
+  height: auto;
+  background-color: #292D33
+}
+
+.devider {
+  margin-top: 63px;
+  height: 1px;
+  width: 230px;
+  background-color: dimgrey;
+}
+
+.submenu-body {
+  width: 100%;
+  height: 170px;
+  border-bottom: 1px solid dimgrey;
+}
+
+.menuitem-body {
+  width: 100%;
+  height: 50px;
+  display: flex;
+
+}
+
+.menuitem-body:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.menuitem-body:active {
+  color: white;
+  opacity: 0.5;
+  background-color: white;
+  -webkit-transition: all ease 0.3s;
+  -moz-transition: all ease 0.3s;
+  transition: all ease 0.3s;
+}
+
+.logo-size-position {
+  width: 20px;
+  height: 20px;
+  margin-top: 15px;
+  margin-left: 20px;
+}
+
+.logo0 {
+  background-image: url('../assets/email.png');
+  background-size: 100% 100%;
+}
+
+.selected0 {
+  background-image: url('../assets/email1.png');
+  background-size: 100% 100%;
+}
+
+.logo1 {
+  background-image: url('../assets/calendar.png');
+  background-size: 100% 100%;
+}
+
+.selected1 {
+  background-image: url('../assets/calendar1.png');
+  background-size: 100% 100%;
+}
+
+.logo2 {
+  background-image: url('../assets/file.png');
+  background-size: 100% 100%;
+}
+
+.selected2 {
+  background-image: url('../assets/file1.png');
+  background-size: 100% 100%;
+}
+
+.logo3 {
+  background-image: url('../assets/home.png');
+  background-size: 100% 100%;
+}
+
+.selected3 {
+  background-image: url('../assets/home1.png');
+  background-size: 100% 100%;
+}
+
+.logo4 {
+  background-image: url('../assets/customer.png');
+  background-size: 100% 100%;
+}
+
+.selected4 {
+  background-image: url('../assets/customer1.png');
+  background-size: 100% 100%;
+}
+
+.logo5 {
+  background-image: url('../assets/inventory.png');
+  background-size: 100% 100%;
+}
+
+.selected5 {
+  background-image: url('../assets/inventory1.png');
+  background-size: 100% 100%;
+}
+
+.selected6 {
+  background-image: url('../assets/customer1.png');
+  background-size: 100% 100%;
+}
+
+.logo6 {
+  background-image: url('../assets/customer.png');
+  background-size: 100% 100%;
+}
+
+.selected7 {
+  background-image: url('../assets/contact1.png');
+  background-size: 100% 100%;
+}
+
+.logo7 {
+  background-image: url('../assets/contact.png');
+  background-size: 100% 100%;
+}
+
+.selected8 {
+  background-image: url('../assets/report1.png');
+  background-size: 100% 100%;
+}
+
+.logo8 {
+  background-image: url('../assets/report.png');
+  background-size: 100% 100%;
+}
+
+.selected9 {
+  background-image: url('../assets/edi1.png');
+  background-size: 100% 100%;
+}
+
+.logo9 {
+  background-image: url('../assets/edi.png');
+  background-size: 100% 100%;
+}
+
+.selected10 {
+  background-image: url('../assets/market1.png');
+  background-size: 100% 100%;
+}
+
+.logo10 {
+  background-image: url('../assets/market.png');
+  background-size: 100% 100%;
+}
+
+.logo11 {
+  background-image: url('../assets/setting.png');
+  background-size: 100% 100%;
+}
+
+.selected11 {
+  background-image: url('../assets/setting1.png');
+  background-size: 100% 100%;
+}
+
+.item-label {
+  font-family: var(--theme-fontfamily);
+  font-size: 15px;
+  margin-left: 10px;
+  margin-top: 17px;
+  width: 155px;
+  color: var(--menu-color);
+}
+
+.clicked-menu-item-body {
+  background-color: #1D2024;
+  color: white;
+}
+
+.margin-top-30px {
+  margin-top: 30px;
+}
+
+.border-up-line {
+  border-top: 1px solid dimgrey;
+}
+
+.triangle {
+  position: absolute;
+  width: 0px;
+  height: 0px;
+  margin-top: 11px;
+  margin-left: 220px;
+  border-top: 15px solid transparent;
+  border-right: 10px solid white;
+  border-bottom: 15px solid transparent;
+}
+
+.font-white {
+  color: white;
+}
+
+.faq-item__title-icon {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  font-family: "Font Awesome 5 Free";
+  content: "\f107";
+  right: 0px;
+  top: 55%;
+  right: 0;
+  float: right;
+  transform: translateY(-50%);
+  -webkit-transition: all ease 0.3s;
+  -moz-transition: all ease 0.3s;
+  transition: all ease 0.3s;
+}
+.icon-down{
+  background-image: url('../assets/icon-down.png');
+  background-size: 100% 100%;
+}
+.icon-right{
+  background-image: url('../assets/icon-right.png');
+  background-size: 100% 100%;
+
+}
+.sublist {
+  width: 100%;
+  height: auto;
+  background-color: #1D2024;
+  -webkit-transition: all ease 0.3s;
+  -moz-transition: all ease 0.3s;
+  transition: all ease 0.3s;
+}
+
+.sublistItem {
+  width: 100%;
+  height: 40px;
+  color: var(--menu-color);
+  font-size: 15px;
+  padding-left: 55px;
+  display: flex;
+  align-items: center;
+  font-family: var(--theme-fontfamily);
+}
+
+.sublistItem:hover {
+  cursor: pointer;
+  opacity: 0.6;
+}
+.sublistItem:active {
+  color: white;
+  opacity: 0.5;
+  background-color: white;
+  -webkit-transition: all ease 0.3s;
+  -moz-transition: all ease 0.3s;
+  transition: all ease 0.3s;
+}
